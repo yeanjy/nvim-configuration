@@ -15,4 +15,5 @@ mv ~/.config/nvim ~/.config/nvim.backup
 rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
 unzip nvim.zip -d ~/.config
+~/.local/share/nvim/mason/bin/clang-format --style Microsoft --dump-config > .clang-format
 echo "Done"
